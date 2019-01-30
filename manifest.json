@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Plus One",
+    "version": "1.0",
+    "description": "Increments the Url by 1, if it ends in an integer",
+    "icons": {
+    },
+    
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
